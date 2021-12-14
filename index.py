@@ -21,13 +21,15 @@ print(filter_mult5([0, 1, 0]))
 print(filter_mult5([0, 1, 0, 1, 0]))'''
 
 
-def check_point_belongs_rect(a, c, b):
-    # if a[0] <= c[0] <= b[0] and a[1] <= c[1] <= b[1]:
-        # print("Belongs to  axis")
-        # return True
-    x1, y1 = a
-    x2, y2 = b
-    x, y = c
-    return x1 <= x <= x2 and y1 <= y <= y2
+# def check_point_belongs_rect(a, c, b):
+#     # if a[0] <= c[0] <= b[0] and a[1] <= c[1] <= b[1]:
+#         # print("Belongs to  axis")
+#         # return True
+#     x1, y1 = a
+#     x2, y2 = b
+#     x, y = c
+#     return x1 <= x <= x2 and y1 <= y <= y2
 
-print(check_point_belongs_rect((2,3), (3, 4), (6, 6)))
+# print(check_point_belongs_rect((2,3), (3, 4), (6, 6)))
+
+
